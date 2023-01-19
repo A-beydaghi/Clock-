@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(106, 96, 96);
+    color: antiquewhite;
+    font-size: 4rem;
+}
+
+
+.digital {
+    width: 60%;
+    height: 30%;
+    background: rgb(104, 104, 112);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    box-shadow: 20px 10px 10px 10px antiquewhite;
+    transition: all, ease-out, 1s;
+}
+
+.clock {
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.status {
+    font-size: 0.5em;
+}
+
+.digital:hover {
+    color: rgb(104, 104, 112);
+    background: antiquewhite;
+    box-shadow: 10px 10px 10px 10px rgb(104, 104, 112);
+}
